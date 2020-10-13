@@ -7,6 +7,6 @@ RecyclerView, NavigationDrawer, BottomNavigation,CardView, Picasso, Paperdb
 ViewHolders, Interfaces, Model Classes, Prvelent SuperClasses 
 and so on.
 
-
+JSON File added for better view of my Databse
 
   
