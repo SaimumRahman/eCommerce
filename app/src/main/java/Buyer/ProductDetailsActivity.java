@@ -79,15 +79,15 @@ public class ProductDetailsActivity extends AppCompatActivity {
 
     private void AddToCartList() {
 
-        String saveCurrentTime, saveCurrentDate;
+            String saveCurrentTime, saveCurrentDate;
 
-        Calendar callForDate=Calendar.getInstance();
+            Calendar callForDate=Calendar.getInstance();
 
-        SimpleDateFormat currentDate=new SimpleDateFormat("MM dd, yyyy");
-        saveCurrentDate=currentDate.format(callForDate.getTime());
+            SimpleDateFormat currentDate=new SimpleDateFormat("MM dd, yyyy");
+            saveCurrentDate=currentDate.format(callForDate.getTime());
 
-        SimpleDateFormat currentTime=new SimpleDateFormat("HH:mm:ss a");
-        saveCurrentTime=currentTime.format(callForDate.getTime());
+            SimpleDateFormat currentTime=new SimpleDateFormat("HH:mm:ss a");
+            saveCurrentTime=currentTime.format(callForDate.getTime());
 
        final DatabaseReference cartListRef= FirebaseDatabase.getInstance().getReference().child("Cart_List");
 

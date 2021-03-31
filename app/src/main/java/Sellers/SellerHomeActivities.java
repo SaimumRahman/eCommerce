@@ -38,7 +38,7 @@ import Buyer.MainActivity;
 import ViewHolder.ProductViewHolder;
 import ViewHolder.sellerItemViewHolder;
 
-public class SellerHomeActivities extends AppCompatActivity{
+public class SellerHomeActivities<AppCompatActivity> extends androidx.appcompat.app.AppCompatActivity {
 
     private TextView nTextMessage;
     private RecyclerView seller_recycler;
@@ -166,4 +166,7 @@ public class SellerHomeActivities extends AppCompatActivity{
         });
 
     }
+
+
+
 }

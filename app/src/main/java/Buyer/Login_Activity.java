@@ -144,7 +144,7 @@ public class Login_Activity extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot)
             {
-                if (dataSnapshot.child(parentDbName).child(phone).exists())
+                    if (dataSnapshot.child(parentDbName).child(phone).exists())
                 {
                     Users usersData = dataSnapshot.child(parentDbName).child(phone).getValue(Users.class);
 

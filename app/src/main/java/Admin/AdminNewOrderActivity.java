@@ -85,7 +85,8 @@ private DatabaseReference ordersRef;
                                     String uid=getRef(position).getKey();
                                     RemoveOrder(uid);
                                 }
-                                else {finish();}
+                                else {finish();
+                                }
                             }
                         });
                         builder.show();
